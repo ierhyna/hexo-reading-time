@@ -1,5 +1,6 @@
 {
   "name": "hexo-reading-time",
+  "description": "Hexo plugin that displays reading time for the article",
   "version": "1.0.0",
   "description": "Plugin to display reading time for Hexo",
   "main": "index.js",
@@ -10,6 +11,14 @@
     "hexo"
   ],
   "author": "Irina Sokolovskaja",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ierhyna/hexo-reading-time.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ierhyna/hexo-reading-time/issues"
+  },
+  "homepage": "https://github.com/ierhyna/hexo-reading-time#readme",
   "license": "MIT",
   "dependencies": {
     "html-to-text": "^2.1.3",
