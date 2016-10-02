@@ -4,7 +4,7 @@
 ## Installation
 
 ```
-npm install --save hexo-reading-time
+npm install --save ierhyna/hexo-reading-time
 ```
 
 ## Usage
