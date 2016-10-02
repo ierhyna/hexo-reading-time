@@ -15,7 +15,7 @@ To display reading time, add the function into `post.ejs`:
 ```
 It will display `X min. read`.
 
-You can cutomize the by passing the second argument as a string:
+You can cutomize the output by passing the second argument as a string:
 ```
 <%- readingTime(page.content, 'min.') %>
 ```
