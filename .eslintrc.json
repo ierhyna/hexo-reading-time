@@ -1,0 +1,20 @@
+{
+    "parserOptions": {
+        "ecmaVersion": 5,
+        "sourceType": "module"
+    },
+    "env": {
+        "node": true
+    },
+    "extends": "eslint:recommended",
+    "globals": {
+      "hexo": true
+    },
+    "rules": {
+        "semi": "error",
+        "indent": ["error", 2],
+        "curly": "error",
+        "linebreak-style": ["error", "unix"],
+        "quotes": ["error", "single"]
+    }
+}
