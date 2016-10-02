@@ -1,5 +1,5 @@
 # hexo-reading-time
-Hexo plugin that displays reading time for the article.
+[Hexo](https://hexo.io/) plugin that displays reading time for the article.
 
 ## Installation
 
