@@ -1,8 +1,7 @@
 {
   "name": "hexo-reading-time",
-  "description": "Hexo plugin that displays reading time for the article",
-  "version": "1.0.0",
   "description": "Plugin to display reading time for Hexo",
+  "version": "1.0.1",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
