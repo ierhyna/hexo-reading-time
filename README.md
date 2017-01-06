@@ -29,22 +29,25 @@ It will display `X min. read`.
 
 ### Customization
 
-You can cutomize the output by passing the second argument as a string.
+You can cutomize the output by passing additional arguments.
 
 Ejs:
 ```
-<%- readingTime(page.content, 'min.') %>
+<%- readingTime(page.content, 'min.', wordsperminute) %>
 ```
 Swig:
 ```
-{{ readingTime(page.content, 'min.') }}
+{{ readingTime(page.content, 'min.', wordsperminute) }}
 ```
 Jade:
 ```
-span= readingTime(page.content, 'min.')
+span= readingTime(page.content, 'min.', wordsperminute)
 ```
 
-It will display `X min.`.
+where:  
+ `'min.'` - second argument - any string that represents suffx. Default is 'min. read'  
+ `wpm` - number  - words per minute. Default is 150.  
+ Both arguments are optional.  
 
 ## License
 MIT
