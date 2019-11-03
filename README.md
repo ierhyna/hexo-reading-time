@@ -1,3 +1,5 @@
+[![NPM Version](https://img.shields.io/npm/v/hexo-reading-time.svg)](https://www.npmjs.com/package/hexo-reading-time)
+
 # hexo-reading-time
 [Hexo](https://hexo.io/) plugin that displays reading time for the article.
 
