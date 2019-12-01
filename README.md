@@ -31,7 +31,7 @@ It will display `X min. read`.
 
 ### Customization
 
-You can cutomize the output by passing additional arguments.
+You can customize the output by passing additional arguments.
 
 Ejs:
 ```
@@ -46,9 +46,9 @@ Jade:
 span= readingTime(page.content, 'min.', wordsperminute)
 ```
 
-where:  
- `'min.'` - second argument - any string that represents suffx. Default is 'min. read'  
- `wpm` - number  - words per minute. Default is 150.  
+Where:  
+ `'min.'` - second argument - any string that represents suffix. Default is 'min. read'  
+ `wpm` - number - words per minute. Default is 150.  
  Both arguments are optional.  
 
 ## License
